@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "username": "admin",
+      "name": "Administrator",
+      "role": "admin",
+      "email": "admin@caretrack.uz"
+    },
+    {
+      "id": "user-2",
+      "username": "clinician",
+      "name": "Dr. Sarvar Toshmatov",
+      "role": "clinician",
+      "email": "clinician@caretrack.uz"
+    },
+    {
+      "id": "user-3",
+      "username": "receptionist",
+      "name": "Nilufar Karimova",
+      "role": "receptionist",
+      "email": "receptionist@caretrack.uz"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-1",
+      "firstName": "Sarvar",
+      "lastName": "Toshmatov",
+      "specialization": "Kardiologiya",
+      "department": "Yurak-qon tomir",
+      "phone": "+998901234567",
+      "email": "s.toshmatov@caretrack.uz",
+      "experience": 12,
+      "status": "active",
+      "createdAt": "2024-01-15T08:00:00.000Z"
+    },
+    {
+      "id": "doc-2",
+      "firstName": "Malika",
+      "lastName": "Yusupova",
+      "specialization": "Nevrologiya",
+      "department": "Nevrologiya",
+      "phone": "+998907654321",
+      "email": "m.yusupova@caretrack.uz",
+      "experience": 8,
+      "status": "active",
+      "createdAt": "2024-02-10T08:00:00.000Z"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat-1",
+      "firstName": "Bobur",
+      "lastName": "Rahimov",
+      "dateOfBirth": "1985-06-20",
+      "gender": "male",
+      "phone": "+998901112233",
+      "email": "b.rahimov@mail.uz",
+      "bloodType": "A+",
+      "doctorId": "doc-1",
+      "address": "Toshkent, Chilonzor tumani",
+      "emergencyContact": "+998902223344",
+      "status": "active",
+      "createdAt": "2024-03-01T08:00:00.000Z"
+    }
+  ],
+  "illnesses": [
+    {
+      "id": "ill-1",
+      "patientId": "pat-1",
+      "icdCode": "I21",
+      "description": "O'tkir miokard infarkti",
+      "severity": "high",
+      "diagnosisDate": "2024-03-05",
+      "status": "ongoing",
+      "treatment": "Medikamentoz davolash, dam olish tartibi",
+      "notes": "Haftalik nazorat talab etiladi",
+      "createdAt": "2024-03-05T09:00:00.000Z",
+      "updatedAt": "2024-03-05T09:00:00.000Z"
+    }
+  ]
+}
